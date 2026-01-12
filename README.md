@@ -3,6 +3,49 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/) 
+# Face Recognition Based Attendance Management System
+
+A computer vision–based attendance management system that uses facial recognition
+to automatically identify individuals and record attendance in real time,
+eliminating manual entry and reducing errors.
+
+---
+
+## 📌 Project Overview
+
+This project leverages **face recognition and image processing techniques** to
+detect and recognize faces from images or live video streams. Once a face is
+identified, the system automatically marks attendance and stores it in a
+structured format for further analysis.
+
+---
+
+## 🚀 Key Features
+
+- Real-time face detection and recognition
+- Automated attendance marking
+- CSV-based attendance record management
+- Scalable and modular code structure
+- Reduces manual effort and human error
+
+---
+
+## 🛠️ Technologies & Tools
+
+- **Programming Language:** Python  
+- **Libraries & Frameworks:**
+  - OpenCV
+  - face_recognition
+  - NumPy
+  - Pandas
+- **Concepts Used:**
+  - Computer Vision
+  - Image Processing
+  - Facial Feature Encoding
+
+---
+
+
 
 ### What steps you have to follow??
 - Download or clone my Repository to your device
@@ -11,15 +54,6 @@
 - open `attendance.py` and `automaticAttendance.py`, change all the path according to your system
 - Run `attandance.py` file
 
-### Project flow & explaination
-- After you run the project you have to register your face so that system can identify you, so click on register new student
-- After you click a small window will pop up in that you have to enter you ID and name and then click on `Take Image` button
-- After clicking `Take Image` button A camera window will pop up and it will detect your Face and take upto 50 Images(you can change the number of Image it can take) and stored in the folder named `TrainingImage`. more you give the image to system, the better it will perform while recognising the face.
-- Then you have to click on `Train Image` button, It will train the model and convert all the Image into numeric format so that computer can understand. we are training the image so that next time when we will show the same face to the computer it will easily identify the face.
-- It will take some time(depends on you system).
-- After training model click on `Automatic Attendance` ,you have to enter the subject name and then it can fill attendace by your face using our trained model.
-- it will create `.csv` file for every subject you enter and seperate every `.csv` file according the subject
-- You can view the attendance after clicking `View Attendance` button. It will show record in tabular format.
 
 ### Screenshots
 
