@@ -60,5 +60,3 @@ structured format for further analysis.
 ### Simple UI
 <img src='https://github.com/Patelrahul4884/Attendance-Management-system-using-face-recognition/blob/master/Project%20Snap/1.PNG'>
 
-
-## Just follow me and Star⭐ my repository
